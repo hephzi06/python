@@ -11,7 +11,7 @@ elif 45 <= grade:
     elif pick == "n":
         print(f"Don't forget to retake the exam. ")
 else:
-    print(f'You failed. Do you want to know your score?')
+    print(f'You failed.  Do you want to know your score?')
     pick = input("(Y)es or (N)o: ").lower()
     if pick == "y":
         print(f'Your score is {grade}')
