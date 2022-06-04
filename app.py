@@ -9,8 +9,4 @@ while guessCount < guessLimit:
         break
 
 else:
-     print("Sorry, you failed")
-
-
-
-
+    print("Sorry, you failed")
